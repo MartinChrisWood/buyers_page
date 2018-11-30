@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="390.813"
+     inkscape:cy="417.84034"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3732"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.49374911,0,0,0.62112687,-34.249495,142.18861)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion3734"><rect
+           id="rect3736"
+           width="938.4317"
+           height="289.91379"
+           x="94.954338"
+           y="89.624481" /></flowRegion><flowPara
+         id="flowPara3738"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#800000">RyanProp</flowPara></flowRoot>    <g
+       id="g3752"
+       transform="translate(7.7508163,19.243406)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         y="141.18187"
+         x="186.55412"
+         height="40.624966"
+         width="56.66114"
+         id="rect3740"
+         style="fill:#800000;stroke-width:0.26458332" />
+      <path
+         transform="matrix(2.1350053,0.9824888,-0.432525,0.93990197,-124.63487,-174.22541)"
+         inkscape:transform-center-y="3.9178547"
+         inkscape:transform-center-x="4.4487416"
+         d="m 211.05096,138.3712 -17.81507,0 -17.81508,0 8.90754,-15.42831 8.90754,-15.4283 8.90753,15.4283 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5707963"
+         sodipodi:arg1="0.52359878"
+         sodipodi:r2="10.285537"
+         sodipodi:r1="20.571074"
+         sodipodi:cy="128.08566"
+         sodipodi:cx="193.23589"
+         sodipodi:sides="3"
+         id="path3742"
+         style="fill:#800000;stroke-width:0.26458332"
+         sodipodi:type="star" />
+      <rect
+         transform="rotate(-12.690198)"
+         y="207.91527"
+         x="179.86353"
+         height="19.510675"
+         width="9.6217022"
+         id="rect3744"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+      <rect
+         transform="rotate(8.3955343)"
+         y="118.06058"
+         x="217.73131"
+         height="14.967093"
+         width="16.83798"
+         id="rect3746"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+    </g>
+  </g>
+</svg>
