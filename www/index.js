@@ -1,3 +1,5 @@
+url = 'http://127.0.0.1:8080/properties'
+
 // Assigns a html element to a variable for convenience
 const app = document.getElementById('root');
 
@@ -47,8 +49,6 @@ function createCORSRequest(method, url) {
   return xhr;
 }
 
-url = 'http://127.0.0.1:8080/properties'
-
 var request = createCORSRequest('GET', url);
 if (!request) {
   throw new Error('CORS not supported');
@@ -82,12 +82,20 @@ request.onload = function () {
 			house.description = house.description.substring(0, 300);  // Limit the description to 300 characters
 			p.textContent = `${house.description}...`;  // End with an ellipses - REF I DON'T KNOW WHAT THAT MEANS
 			
+			// Create a hyperlink to a property page
+			var a = document.createElement('a');
+			var linkText = document.createTextNode("Property details");
+			a.appendChild(linkText);
+			a.title = "Property details";
+			a.href = "file:///home/study/Documents/buyers_page/www/property_page" + "/?index=" + house.id;
+			
 			// Append the card to the container element
 			container.appendChild(card);
 			
 			// Append the title and description (h1 and p) to the card
 			card.appendChild(h1);
 			card.appendChild(p);
+			card.appendChild(a);
 			
 		});
 		
