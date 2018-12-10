@@ -1,5 +1,4 @@
-url = 'http://127.0.0.1:8080/properties'
-
+// Script behind the home/index html file
 // Assigns a html element to a variable for convenience
 const app = document.getElementById('root');
 
@@ -18,6 +17,10 @@ container.setAttribute('class', 'container');
 app.appendChild(logo);
 app.appendChild(container);
 
+// url = 'http://127.0.0.1:8080/properties'
+agent_url = 'https://mypr-224015.appspot.com';
+app_url = 'https://mypr-224014.appspot.com';
+
 // Create a request variable and assign a new XMLHttpRequest Object to it.
 // var request = new XMLHttpRequest();
 
@@ -28,7 +31,10 @@ app.appendChild(container);
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
   if ("withCredentials" in xhr) {
-
+	
+	// Set a request header
+	//xhr.setRequestHeader('Access-Control-Allow-Origin', 'https://mypr-224015.appspot.com')
+	
     // Check if the XMLHttpRequest object has a "withCredentials" property.
     // "withCredentials" only exists on XMLHTTPRequest2 objects.
     xhr.open(method, url, true);
@@ -49,7 +55,7 @@ function createCORSRequest(method, url) {
   return xhr;
 }
 
-var request = createCORSRequest('GET', url);
+var request = createCORSRequest('GET', agent_url + '/properties');
 if (!request) {
   throw new Error('CORS not supported');
 }
@@ -87,7 +93,7 @@ request.onload = function () {
 			var linkText = document.createTextNode("Property details");
 			a.appendChild(linkText);
 			a.title = "Property details";
-			a.href = "file:///home/study/Documents/buyers_page/www/property_page" + "/?index=" + house.id;
+			a.href = app_url + "/property_page" + "?houseid=" + house.id;
 			
 			// Append the card to the container element
 			container.appendChild(card);

@@ -1,7 +1,6 @@
-// This url needs to change dependent on the url by which this page is called
-url = 'http://127.0.0.1:8080/properties/1'
-
+// Script behind the property_page html file
 // Assigns a html element to a variable for convenience
+// This comment exists only to trigger a file upload...
 const app = document.getElementById('root');
 
 // Creates a new html element "logo"
@@ -19,6 +18,9 @@ container.setAttribute('class', 'container');
 app.appendChild(logo);
 app.appendChild(container);
 
+// This url needs to change dependent on the url by which this page is called
+agent_url = 'https://mypr-224015.appspot.com';
+app_url = 'https://mypr-224014.appspot.com';
 
 // Alternative, function for making cross-site requests using CORS
 function createCORSRequest(method, url) {
@@ -110,9 +112,7 @@ function getAllUrlParams(url) {
   return obj;
 }
 
-
-
-var request = createCORSRequest('GET', url);
+var request = createCORSRequest('GET', agent_url + "/properties/" + getAllUrlParams(window.location.href).houseid);
 if (!request) {
   throw new Error('CORS not supported');
 }
@@ -146,6 +146,8 @@ request.onload = function () {
 		card.appendChild(p1);
 		card.appendChild(p2);
 		
+		console.log(getAllUrlParams(window.location.href));
+		
 	} else {
 		console.log('error');
 	}
@@ -153,3 +155,5 @@ request.onload = function () {
 
 // Send request
 request.send();
+
+

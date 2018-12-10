@@ -4,7 +4,11 @@ handlers:
 - url: /
   static_files: www/index.html
   upload: www/index.html
-  
+
+- url: /property_page(.*)
+  static_files: www/property_page.html
+  upload: www/property_page.html
+
 - url: /(.*)
   static_files: www/\1
   upload: www/(.*)
