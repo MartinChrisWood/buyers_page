@@ -112,7 +112,9 @@ function getAllUrlParams(url) {
   return obj;
 }
 
+// Reguest info from specific entry based on parameters passed through url
 var request = createCORSRequest('GET', agent_url + "/properties/" + getAllUrlParams(window.location.href).houseid);
+
 if (!request) {
   throw new Error('CORS not supported');
 }
@@ -153,6 +155,7 @@ request.onload = function () {
 	}
 };
 
+// I am the one and only, detect this and upload you retarded piece-of-shit cloud app
 // Send request
 request.send();
 
